@@ -26,14 +26,7 @@ document.addEventListener('DOMContentLoaded', () => {
     let floatingTexts = []; // Array to store floating text meshes
     let loveText; // Special "I Love You" text near the heart
 
-    // Song lyrics with timing (in milliseconds now for better precision)
-    const lyrics = [
-        { time: 0, text: "🎵 PAR JABSE DEKHA TUJHE..." },
-        { time: 2000, text: "💖 JO HUA NAHI" },
-        { time: 3400, text: "❤️ WO HONE LAGA"},
-        { time: 5300, text: "❤️ DIL MERA MUJHE JAGAKE..." },
-        { time: 8000, text: "✨ KHUD SEENE ME SONE LAGA" }
-    ];
+  
 
     // Audio variables
     let audio;
