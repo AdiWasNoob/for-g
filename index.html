@@ -108,13 +108,13 @@
 
     <script>
         (function(){
-            const wm = atob("bWFkZSBieSBsYWRkdQ=="); 
+            const wm = atob("bWFkZSBieSBnb2x1"); 
 
             const badge = document.createElement("div");
             badge.id = "wm-badge";
             badge.innerText = wm;
             document.body.appendChild(badge);
-            if(!wm.includes("pinak")){
+            if(!wm.includes("golu")){
                 document.body.innerHTML = "<h1 style='color:red;text-align:center'>Site Integrity Compromised</h1>";
                 throw new Error("Watermark missing!");
             }
