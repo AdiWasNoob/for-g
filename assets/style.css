@@ -791,6 +791,10 @@ max-width: 98%;
   
 .signature {  
     font-size: 1.2rem;  
+
+#lyrics-container {
+    display: none !important;
+}
 }
 
 }
