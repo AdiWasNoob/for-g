@@ -154,7 +154,7 @@ document.addEventListener('DOMContentLoaded', () => {
     function createLoveText() {
         if (!loadedFont) return;
 
-        const loveTextGeometry = new THREE.TextGeometry("Happy Birthday Meri Princess ❤️", {
+        const loveTextGeometry = new THREE.TextGeometry("Happy Birthday Meri Princess ", {
             font: loadedFont,
             size: 0.5, // Increased size for better mobile visibility
             height: 0.12, // Increased depth
